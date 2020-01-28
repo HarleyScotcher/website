@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
+import pdf from '../files/CV.pdf'
 const IndexPage = () => (
   <Layout>
     <Sidebar />
@@ -23,7 +24,7 @@ const IndexPage = () => (
             <a className="text-main" href={`mailto:${config.email}`}> {config.email}</a>
           </div>
           <p className="lead mb-5">
-            Hi, I'm Harley. I am a Software Engineer with a passionate for building excellent 
+            Hi, I'm Harley. I am a Software Engineer with a passion for building excellent 
             software that improves the lives of those around me. I specialize in creating software 
             for clients ranging from individuals and small-businesses all the way to large enterprise corporations.
           </p>
@@ -31,11 +32,14 @@ const IndexPage = () => (
             {config.socialLinks.map(social => {
               const { icon, url } = social;
               return (
-                <a key={url} href={url}>
+                <a key={url} href={url} target='_blank'>
                   <i className={`fab ${icon}`}></i>
                 </a>
               );
             })}
+            <a key="Ciriculum Vitae" href={pdf} target='_blank'>
+              <i className="fas fa-file-alt"></i>
+            </a>
           </div>
         </div>
       </section>
@@ -51,69 +55,27 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Software Engineer</h3>
+              <div className="subheading mb-3">Eloquent Technologies Ltd</div>
               <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
+                My role at Eloquent Technologies contains a multitude disciplines and tasks. I am involved in various software development projects working with backend frameworks such as .NET (Core and Framework) and Laravel and frontend javascript frameworks (Vue and React). I also work to develop and maintain a Docker Swarm environment to host both internal and customer applications/services as well as the CI/CD Pipelines that are used to test, build and deploy code.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary">June 2017 - Present</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Apprentice Software Developer</h3>
+              <div className="subheading mb-3">Ivy Ltd</div>
               <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+                During my time at Ivy Ltd I completed my Level 3 and Level 4 apprenticeship qualifications in Software Development. As well as this my other responsibilities included developing and supporting a custom fork of SuiteCRM. I was also responsible for administering a number of linux servers (CentOS) for a number of customers.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">August 2014 - June 2017</span>
             </div>
           </div>
         </div>
@@ -192,6 +154,9 @@ const IndexPage = () => (
             <li className="list-inline-item">
               <i className="fab fa-npm"></i>
             </li>
+            <li className="list-inline-item">
+              <i className="fab fa-linux"></i>
+            </li>
             <li>
               C#, .NET Core and Framework
             </li>
@@ -232,61 +197,17 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
           <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
+          I like to keep busy during my free time, I am a keen cyclist and enjoy challenging myself, for example
+          I cycled from London -> Paris -> London over 4 days in order to raise £2500 for Chums Mental Health
+          UK and in 2018 I completed Coast to Coast (150 Miles in one day). I also enjoy going to the gym and
+          playing squash a few times a week. I also enjoy attending tech meetup events, most commonly PHP
+          South West in Bristol.
           </p>
           <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
+            When forced indoors, I enjoy cooking, and I spend a
             large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
+            advancements in the web development world.
           </p>
-        </div>
-      </section>
-
-      <hr className="m-0" />
-
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="awards"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Awards &amp; Certifications</h2>
-          <ul className="fa-ul mb-0">
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2009
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008
-              (UI Design Category)
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2008
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005
-            </li>
-          </ul>
         </div>
       </section>
     </div>

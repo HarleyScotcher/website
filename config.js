@@ -20,11 +20,6 @@ module.exports = {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/harley-scotcher/',
-    },
-    {
-      icon: 'fas fa-file-alt',
-      name: 'Ciriculum Vitae',
-      url: 'https://www.google.com',
     }
   ],
   email: 'harley@scotcher.me',
