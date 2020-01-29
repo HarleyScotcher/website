@@ -95,7 +95,7 @@ const IndexPage = () => (
             
               <h3 className="mb-0">Level 4 Diploma in ICT Professional Competence</h3>
               <h3 className="mb-0">Level 4 Diploma for ICT Professionals - Systems and Principles</h3>
-              <div className="subheading mb-3">Workplace Apprenticeship Scheme at Ivy Ltd</div>
+              <div className="subheading mb-3">Higher Level Apprenticeship at Ivy Ltd</div>
               <div>QA Ltd, City and Guilds</div>
             </div>
             <div className="resume-date text-md-right">
