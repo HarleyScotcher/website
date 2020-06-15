@@ -53,6 +53,20 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Experience</h2>
 
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Software Engineer</h3>
+              <div className="subheading mb-3">Toolstation</div>
+              <p>
+                My role at Toolstation is Software Engineering using a tech stack that involves React and Laravel. I am a member of the EPOS team, our main focus is developing and maintaining the Till system for the business, as well as working on the REST api that services all other applications within the suite.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">April 2020 - Present</span>
+            </div>
+          </div>
+
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Software Engineer</h3>
@@ -62,7 +76,7 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">June 2017 - Present</span>
+              <span className="text-primary">June 2017 - April 2020</span>
             </div>
           </div>
 
