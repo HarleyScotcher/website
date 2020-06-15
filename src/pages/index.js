@@ -72,7 +72,7 @@ const IndexPage = () => (
               <h3 className="mb-0">Software Engineer</h3>
               <div className="subheading mb-3">Eloquent Technologies Ltd</div>
               <p>
-                My role at Eloquent Technologies contains a multitude of disciplines and responsibilities. I am involved in various software development projects working with backend frameworks such as .NET (Core and Framework) and Laravel and frontend javascript frameworks (Vue and React). I also work to develop and maintain a Docker Swarm environment to host both internal and customer applications/services as well as the CI/CD Pipelines that are used to test, build and deploy code.
+                My role at Eloquent Technologies contained a multitude of disciplines and responsibilities. I was involved in various software development projects working with backend frameworks such as .NET (Core and Framework) and Laravel and frontend javascript frameworks (Vue and React). I also worked to develop and maintain a Docker Swarm environment to host both internal and customer applications/services as well as the CI/CD Pipelines that are used to test, build and deploy code.
               </p>
             </div>
             <div className="resume-date text-md-right">
